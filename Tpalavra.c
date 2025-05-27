@@ -36,6 +36,7 @@ void palavra_n_encontrada(Tpalavra* palavra){
 
     palavra->inicio=coord;
     palavra->fim=coord;
+    
     palavra->achada=0;
 
 }
