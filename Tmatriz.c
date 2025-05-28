@@ -40,7 +40,9 @@ int preencher_matriz(Tmatriz *matriz)
 /*Declarando Função para imprimir matrizes*/
 void imprimir_matriz(Tmatriz *matriz)
 {
-    printf("\nSeu caça palavras é: \n") for (int i = 0; i < matriz->linhas; i++)
+    printf("\nSeu caça palavras é: \n");
+
+    for (int i = 0; i < matriz->linhas; i++);
     {
         for (int j = 0; j < matriz->colunas; j++)
         {

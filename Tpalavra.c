@@ -31,12 +31,9 @@ void posicao_palavra(Tpalavra* palavra, TCoordenada inicio, TCoordenada fim){
 
     
 void palavra_n_encontrada(Tpalavra* palavra){
-
     TCoordenada coord= {0,0};
 
     palavra->inicio=coord;
     palavra->fim=coord;
-    
     palavra->achada=0;
-
 }
