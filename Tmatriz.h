@@ -2,7 +2,7 @@
 #define TMATRIZ_H
 
 /*Declarando matriz do caça palavras*/
-typedef struct
+typedef struct Tmatriz
 {
     char **letras;
     int linhas;

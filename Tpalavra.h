@@ -1,18 +1,18 @@
 #ifndef TPALAVRA_H
 #define TPALAVRA_H
 
-#include "Tcoordenada.h" // se estiver usando TCoordenada
+#include "Tcoordenada.h"
 
 typedef struct {
     char *palavra;
     int achada;
-    TCoordenada inicio;
-    TCoordenada fim;
-} Tpalavra;  // <-- Aqui é onde o tipo Tpalavra é declarado
+    Tcoordenada inicio;
+    Tcoordenada fim;
+} Tpalavra;
 
-// Agora você pode usar Tpalavra nas funções abaixo
-Tpalavra criar_palavra(char *palavra);
-void posicao_palavra(Tpalavra* palavra, TCoordenada inicio, TCoordenada fim);
+Tpalavra criar_palavra(char* palavra);
+void posicao_palavra(Tpalavra* palavra, Tcoordenada inicio, Tcoordenada fim);
 void palavra_n_encontrada(Tpalavra* palavra);
+int apagar_palavra(Tpalavra* palavra);
 
 #endif

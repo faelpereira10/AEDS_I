@@ -3,15 +3,15 @@
 
 #include "Tmatriz.h"
 
-typedef struct
+typedef struct Tcoordenada
 {
     int linha;
     int coluna;
 
-} TCoordenada;
+} Tcoordenada;
 
-TCoordenada criar_coordenada(int linha, int coluna);
+Tcoordenada criar_coordenada(int linha, int coluna);
 
-int verificar_coordenada(TCoordenada coordenada, Tmatriz *matriz)
+int verificar_coordenada(Tcoordenada coordenada, Tmatriz *matriz);
 
 #endif
