@@ -11,7 +11,7 @@ Tmatriz *criar_matriz(int linhas, int colunas)
     m->linhas = linhas;
     m->colunas = colunas;
 
-    m->letras = (char **)malloc(linhas * sizeof(char *));
+    m->letras = (char **)malloc(linhas * sizeof(char));
 
     for (int i = 0; i < linhas; i++)
     {
