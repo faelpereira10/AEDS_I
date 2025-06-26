@@ -97,4 +97,4 @@ void apagar_resolve(Tresolve *resolve) {
 }
 
 
-//Feliza demais
+
