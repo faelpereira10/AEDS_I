@@ -95,3 +95,6 @@ void apagar_resolve(Tresolve *resolve) {
     free(resolve->palavras);
     free(resolve);
 }
+
+
+//Feliza demais
